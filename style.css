@@ -1,0 +1,161 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #EDEDED; /* Changing the background color to light gray */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #EDEDED;
+    padding: 0;
+    height: 80px; /* Height of the navbar */
+}
+
+.yellow-line {
+    height: 10px; /* Height of the yellow line */
+    background-color: #FFC107; /* Bootstrap's yellow color */
+}
+
+.grey-line {
+    height: 1px; /* Height of the yellow line */
+    background-color: #707070; /* Bootstrap's yellow color */
+}
+
+footer {
+    background-color: #333; /* Dark background */
+    color: #fff;
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+footer h5 {
+    color: #ffc107; /* Yellow color for the heading */
+}
+
+footer p {
+    font-size: 16px;
+    color: #ccc; /* Light grey text for better readability */
+}
+
+footer .fa-phone-alt, footer .fa-envelope {
+    color: #ffc107; /* Yellow icons */
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+.h1_body {
+    font: normal normal 900 21px/25px Lato;
+    letter-spacing: 0px;
+    color: #373737;
+    opacity: 1;
+    text-align: left;
+}
+
+.p_1, .p_2 {
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #373737;
+    text-align: left;
+}
+
+.button_mo {
+    background: #F5A000 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    width: 186px;
+    height: 36px;
+}
+
+.connect {
+    font: italic normal 900 17px/21px Lato;
+    letter-spacing: 0px;
+    color: #F5A000;
+    text-align: left;
+    opacity: 1;
+}
+
+.container {
+    height: 100%;
+}
+
+.connect {
+ 
+    font: italic normal var(--unnamed-font-weight-900) 17px/21px var(--unnamed-font-family-lato);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-f5a000);
+    text-align: center;
+    font: italic normal 900 17px/21px Lato;
+    letter-spacing: 0px;
+    color: #F5A000;
+    opacity: 1;
+
+}
+
+.small-text {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #F49A0E;
+}
+.small-text2 {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #ffff;
+}
+.footer_logo {
+ /* Width of the logo */
+ height: 37px; /* Height of the logo */
+    top: 595px;
+    left: 525px;
+    width: 232px;
+/* UI Properties */
+opacity: 1;
+}
+
+.col-12 p {
+    display: inline; /* Make sure paragraphs are inline */
+}
+.small-text-nav {
+    top: 51px;
+    left: 509px;
+    width: 242px;
+    height: 15px;
+    font: italic normal var(--unnamed-font-weight-bold) 9px/11px var(--unnamed-font-family-lato);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: italic normal bold 9px/11px Lato;
+    letter-spacing: 0px;
+    color: #373737;
+    opacity: 1;
+}
+
+.flag {
+    width: 24px; /* Adjust the width of the flags */
+    height: 24px; /* Adjust the height of the flags */
+}
+
+.ml-3 {
+    margin-left: 1rem; /* Adjust the margin as needed */
+}
+
+.mr-2 {
+    margin-right: 0.5rem; /* Adjust the margin as needed */
+}
+
+.mark-text {
+    top: 714px;
+    left: 198px;
+    width: 299px;
+    height: 13px;
+    /* UI Properties */
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: italic normal normal 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
